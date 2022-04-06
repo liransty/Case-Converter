@@ -19,3 +19,8 @@ function ProperCase() {
 
 }
 document.getElementById("upper-case").addEventListener("click", ProperCase)//норм вызов
+
+function SentenceCase(){
+
+}
+document.getElementById("upper-case").addEventListener("click", SentenceCase)
