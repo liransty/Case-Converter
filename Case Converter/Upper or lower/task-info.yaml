@@ -152,11 +152,8 @@ files:
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/learn/step/14000#comment
-status: Failed
+status: Solved
 feedback:
-  message: |-
-    Error: Wrong answer in test #4
-
-    After clicking on 'Sentence Case' button your text is wrong!
-  time: Sat, 16 Apr 2022 15:59:35 UTC
+  message: Congratulations!
+  time: Sat, 16 Apr 2022 16:12:16 UTC
 record: -1

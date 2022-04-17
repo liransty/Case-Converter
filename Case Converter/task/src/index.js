@@ -26,7 +26,7 @@ function SentenceCase() {
     let prop = document.querySelector('textarea').value // получаем текст
     let prop2 = ""
     let isLastDot = true
-    for (let i = 0; i < prop.length - 1; i++) {
+    for (let i = 0; i < prop.length; i++) {
         if (isLastDot === true) {
             prop2 = prop2 + prop[i].toUpperCase()
         } else {
@@ -38,3 +38,4 @@ function SentenceCase() {
 }
 
 document.getElementById("upper-case").addEventListener("click", SentenceCase)
+
