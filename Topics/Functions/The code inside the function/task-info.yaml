@@ -1,9 +1,9 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: head
 - text: There's no name for it.
 - text: body
+- text: head
 - text: footer
 message_correct: Congratulations!
 message_incorrect: Incorrect solution

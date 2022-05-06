@@ -1,10 +1,10 @@
 type: choice
 is_multiple_choice: false
 options:
-- text: undefined
 - text: user-defined
-- text: in-defined
 - text: built-in
+- text: in-defined
+- text: undefined
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

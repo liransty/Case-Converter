@@ -3,7 +3,7 @@
  <head></head>
  <body>
   <p>You are already familiar with strings and numbers. These data types are considered <em>primitive</em> because they can only store one value. This can be inconvenient when you have to deal with sets of related information. To work comfortably with collections of values, there are <strong>objects</strong>. Let's find out what objects are and how they work!</p> 
-  <h5 style="text-align: center;">Not everything in JS is an object</h5> 
+  <h5 style="text-align: center;" id="not-everything-in-js-is-an-object">Not everything in JS is an object</h5> 
   <p>An<strong> object</strong> is a <em>non-primitive</em> data type that represents an unordered collection of <em>properties</em>. A<strong> property</strong> is a part of the object that imitates a variable. It consists of a<strong> key</strong> and a<strong> value</strong> separated by a colon. The key can only be a string or <code class="language-javascript">Symbol</code> (data type, which we will get acquainted with later), but the value may be of any data type. You can create empty objects without a single property:</p> 
   <pre><code class="language-javascript">let book = {};</code></pre> 
   <p>There is an alternative way to create an empty object, but it is rarely used in practice:</p> 
@@ -26,7 +26,7 @@ console.log(typeof book2); // object</code></pre>
    <strong>literal notation</strong>. It's not the only way to do it, but probably the most common.
   </div>
   <p></p> 
-  <h5 style="text-align: center;">Properties</h5> 
+  <h5 style="text-align: center;" id="properties">Properties</h5> 
   <p>Objects are one of the pillars of the JavaScript language, so it's important to know how to work with their properties.</p> 
   <ul> 
    <li>There is an opportunity to refer to the properties. To access the properties, we use a record with the object name and a dot. Let's use the previous code sample and try to access the <code class="language-javascript">name</code> property:</li> 
@@ -40,7 +40,7 @@ console.log(typeof book2); // object</code></pre>
    <li>To delete a property, we can use the <code class="language-javascript">delete</code> operator and a dot. This is how removing the <code class="language-javascript">population</code> property for an object named <code class="language-javascript">country</code> will look like:</li> 
   </ul> 
   <pre><code class="language-javascript">delete country.population;</code></pre> 
-  <h5 style="text-align: center;">Conclusion</h5> 
+  <h5 style="text-align: center;" id="conclusion">Conclusion</h5> 
   <p>Working with grouped data is one of the most common tasks in programming. You now have an important tool that will help you with that: objects and their properties. Way to go!</p>
  </body>
 </html>

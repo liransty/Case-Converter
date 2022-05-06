@@ -5,7 +5,7 @@
   <p>Often we have to repeat the same action in many parts of the script, for example, summing up different data entered by users each time, or displaying pop-ups with product descriptions for an online store.</p> 
   <p>To avoid code duplication and better structure large programs, there are <strong>functions</strong>.</p> 
   <p>Functions in JavaScript can be <strong>built-in </strong>or <strong>user-defined</strong>, that is, created specifically by the programmer. You have already worked with a built-in function <code class="language-javascript">console.log()</code>. Today you will learn how to create your own.</p> 
-  <h5 style="text-align: center;">Basic syntax</h5> 
+  <h5 style="text-align: center;" id="basic-syntax">Basic syntax</h5> 
   <p>Take a close look at the syntax of function creation:</p> 
   <pre><code class="language-javascript">function name(parameters) {
    // function body 
@@ -38,7 +38,7 @@ function writeMessage() {
 
 writeMessage(); // Find and book your ideal tour!</code></pre> 
   <p>The ability to call a function before its creation is due to the peculiarities of JS file processing by browsers: the browser first goes through the whole code, finds all functions and only then starts executing the code.</p> 
-  <h5 style="text-align: center;">Parameters</h5> 
+  <h5 style="text-align: center;" id="parameters">Parameters</h5> 
   <p>In the previous examples, we left the parameters unattended: let's get back to that.</p> 
   <p>We can transfer any information inside the function using the parameters.</p> 
   <p>Let's try to pass two arguments to the function: <code class="language-javascript">a</code> and <code class="language-javascript">b</code>.</p> 
@@ -49,7 +49,7 @@ writeMessage(); // Find and book your ideal tour!</code></pre>
 quotient(10, 5); // 2
 quotient(6, 2);  // 3</code></pre> 
   <p>We called the function by passing the values that were copied into variables <code class="language-javascript">a</code> and <code class="language-javascript">b</code>, and used in the function body.</p> 
-  <h5 style="text-align: center;"><em> </em>Returning a value</h5> 
+  <h5 style="text-align: center;" id="em-emreturning-a-value"><em> </em>Returning a value</h5> 
   <p>In JS, it is possible to return the function result using the <code class="language-javascript">return</code> statement:</p> 
   <pre><code class="language-javascript">function multiply(a, b) {
   return a * b;

@@ -1,13 +1,13 @@
 type: choice
 is_multiple_choice: true
 options:
-- text: const a = 4;
+- text: let a = 4;
 - text: const a = '4';
 - text: const a = "4";
-- text: let a = 4;
-- text: let a = '4';
-- text: let a = "4";
 - text: val a  = 4;
+- text: let a = "4";
+- text: const a = 4;
+- text: let a = '4';
 message_correct: Congratulations!
 message_incorrect: Incorrect solution
 files:

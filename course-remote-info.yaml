@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/555152/additional_files.json
   is_template_based: false
   use_ide: true
-update_date: Sat, 16 Apr 2022 20:28:36 UTC
+update_date: Fri, 06 May 2022 19:22:30 UTC
 stages:
 - id: 962
   step: 13999
@@ -13,7 +13,7 @@ stages:
   is_completed: true
 - id: 964
   step: 14001
-  is_completed: false
+  is_completed: true
 topics:
   0:
   - title: Introduction to UI/UX
@@ -28,7 +28,7 @@ topics:
     theory_id: 6434
   - title: HTTP URL
     theory_id: 6740
-  - title: Tags and attributes
+  - title: Tags and Attributes
     theory_id: 7536
   - title: HTML page structure
     theory_id: 6491
@@ -36,7 +36,7 @@ topics:
     theory_id: 7502
   - title: Block-level elements
     theory_id: 7271
-  - title: Inline Elements
+  - title: Inline elements
     theory_id: 7518
   - title: What is CSS
     theory_id: 7678
@@ -58,9 +58,9 @@ topics:
     theory_id: 12705
   - title: HTML attributes id and class
     theory_id: 7527
-  - title: Margin and padding
+  - title: Margin and Padding
     theory_id: 8346
-  - title: Width and height
+  - title: Width and Height
     theory_id: 8325
   - title: CSS Selectors
     theory_id: 7738
@@ -68,7 +68,7 @@ topics:
     theory_id: 8635
   - title: Introduction to Flexbox
     theory_id: 11760
-  - title: Orientation and display order
+  - title: Orientation and Display order
     theory_id: 11768
   - title: Web development
     theory_id: 13931
@@ -79,7 +79,7 @@ topics:
     theory_id: 8388
   - title: DOM events
     theory_id: 10857
-  - title: Connecting JS to HTML
+  - title: Connecting JavaScript to HTML
     theory_id: 7510
   - title: DOM methods
     theory_id: 8662
@@ -91,7 +91,7 @@ topics:
     theory_id: 8154
   - title: Multi-line programs
     theory_id: 8162
-  - title: Strings and numbers
+  - title: Strings and Numbers
     theory_id: 8194
   - title: Arithmetic operators
     theory_id: 8372
@@ -102,11 +102,11 @@ topics:
   - title: Introduction to Objects
     theory_id: 8588
   2:
-  - title: Introduction to operating systems
+  - title: Introduction to Operating systems
     theory_id: 9704
   - title: Command line overview
     theory_id: 8977
-  - title: Parameters and options
+  - title: Parameters and Options
     theory_id: 9746
   - title: Introduction to Linux
     theory_id: 9526
